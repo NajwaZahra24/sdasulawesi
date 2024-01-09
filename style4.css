@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com");
+
+*{
+    font-family: 'ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -70px;
+    padding: auto;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    margin: 0%;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a:hover{
+    border-bottom: 2px solid white;
+}
+
+body{
+    padding: 100px;
+    background-image: url("sulawesii.webp");
+    background-size: cover;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.main {
+    width: 800px;
+    height: 520px;
+    background-color: #fafafa;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #eeeeee;
+}
+
+.img1 {
+    background-image: url(kebunsawit.jpg);
+    background-color: #eaeaea;
+    background-size: cover;
+    width: 250px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid #eaeaea;
+}
+
+.img2 {
+    background-image: url(emassulawesi.jpg);
+    background-color: #eaeaea;
+    background-size: cover;
+    width: 250px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid #eaeaea;
+}
+
+.img3 {
+    background-image: url(cengkkehulawesi.jpg);
+    background-color: #eaeaea;
+    background-size: cover;
+    width: 250px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid #eaeaea;
+}
+
+.img4 {
+    background-image: url(batubarasulawesi.jpg);
+    background-color: #eaeaea;
+    background-size: cover;
+    width: 250px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid #eaeaea;
+}
+
+.img5 {
+    background-image: url(nikelsulawesi.jpg);
+    background-color: #eaeaea;
+    background-size: cover;
+    width: 250px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid #eaeaea;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+    color: black;
+}
+
+.text {
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    color: black;
+}
+
+p {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 450px;
+    height: auto;
+    color: black;
+}
